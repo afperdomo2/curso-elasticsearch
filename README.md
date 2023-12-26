@@ -26,3 +26,11 @@ Para usar este archivo, necesitarás tener Docker y Docker Compose instalados en
 ```bash
 docker-compose up
 ```
+
+## Endpoints
+
+```
+localhost:9200/usuarios/_doc/1
+localhost:9200/usuarios/_doc?refresh
+localhost:9200/usuarios/_bulk
+```
